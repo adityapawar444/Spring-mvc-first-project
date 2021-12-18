@@ -14,7 +14,13 @@
 
 	<a href="spring-app/showForm">Hello World form</a>
 	
+	<br><br>
+	
 	<a href="student/showForm">Student form</a>
+	
+	<br><br>
+	
+	<a href="customer/showForm">Add New Customer</a>
 
 </body>
 

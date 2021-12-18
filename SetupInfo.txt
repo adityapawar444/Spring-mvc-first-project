@@ -1,0 +1,5 @@
+### To use hibernate Validator with Spring MVC follow the steps:\
+1.Download zip archive from https://hibernate.org/validator/releases/6.2/
+2.Extract the Zip file
+3.Copy jar files from dist to project/WebCntent/WEB-INF/lib
+Copy jar files from dist/lib (wherever that lib is) to project/WebCntent/WEB-INF/lib
