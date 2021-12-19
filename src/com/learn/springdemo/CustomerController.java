@@ -30,6 +30,8 @@ public class CustomerController {
 	 */
 	@RequestMapping("processForm")
 	public String processForm( @Valid @ModelAttribute("customer") Customer newCustomer, BindingResult errResult) {
+		
+		System.out.println(errResult);
 		if(errResult.hasErrors()) {
 			return "customer-form";
 		}else {
