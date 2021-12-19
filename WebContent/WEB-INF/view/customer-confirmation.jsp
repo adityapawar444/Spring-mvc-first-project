@@ -18,6 +18,8 @@
 	<p>You have entered your age as ${customer.age}</p>
 	
 	<p>You have entered your postal code as ${customer.postalCode}</p>
+	
+	<p>You have applied for the coupon - ${customer.couponCode}</p>
 
 	<br>
 

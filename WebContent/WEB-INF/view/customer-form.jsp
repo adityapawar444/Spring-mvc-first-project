@@ -41,6 +41,13 @@
 		
 		<br>
 		<br>
+		
+		Coupon Code : <form:input path="couponCode" />
+		
+		<form:errors path="couponCode" cssClass="error"></form:errors>
+		
+		<br>
+		<br>
 
 		<input type="submit" value="submit">
 

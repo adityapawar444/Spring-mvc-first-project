@@ -7,6 +7,8 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
+import validation.CouponCode;
+
 public class Customer {
 	
 	private String firstName;
@@ -22,6 +24,9 @@ public class Customer {
 	
 	@Pattern(regexp = "^[0-9]{6}", message = "invalid postal code")
 	private String postalCode;
+	
+	@CouponCode
+	private String couponCode;
 	
 	public Customer() {
 		
@@ -55,7 +60,14 @@ public class Customer {
 	public void setPostalCode(String postalCode) {
 		this.postalCode = postalCode;
 	}
-	
+
+	public String getCouponCode() {
+		return couponCode;
+	}
+
+	public void setCouponCode(String couponCode) {
+		this.couponCode = couponCode;
+	}
 	
 
 }
