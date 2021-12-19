@@ -3,3 +3,9 @@
 2.Extract the Zip file
 3.Copy jar files from dist to project/WebCntent/WEB-INF/lib
 Copy jar files from dist/lib (wherever that lib is) to project/WebCntent/WEB-INF/lib
+
+
+### To display custom error messages for Validators (otherwise it may dispaly messages like "Null pointer exception")
+1. Create a new messages.properties file in src/resources
+2. Edit the xmlconfig file to add new bean that reads prop file (this bean is added under comment "<!-- adding custom error messages -->")
+3. Add message to the Annotation 
